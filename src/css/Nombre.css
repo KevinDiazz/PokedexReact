@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Smooch+Sans:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.containerPokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+  height: 74%;
+}
+.list-moves {
+  list-style: none;
+  overflow-y: scroll;
+  width: 300px;
+}
+li {
+  font-family: "Press Start 2P", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 3px;
+}
+.list-moves::-webkit-scrollbar {
+  background-color: aquamarine;
+  width: 10px;
+}
+.list-moves::-webkit-scrollbar-thumb {
+  background-color: yellow;
+}
+.list-moves::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+img {
+  width: 350px;
+  height: 200px;
+}
+h2 {
+  margin-top: 20px;
+  align-self: flex-start;
+  margin-left: 28px;
+  color: rgb(224, 91, 68);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1{
+font-family: 'Smooch Sans', sans-serif;
+font-size: 50px;
+}
+p{
+ margin-top: 20px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+strong{
+  color: rgb(221, 87, 87);
+}

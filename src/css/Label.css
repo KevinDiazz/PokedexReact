@@ -1,0 +1,19 @@
+select{
+    display: flex;
+    width: fit-content;
+    background-color: rgb(255, 255, 0);
+    border: 3px solid rgb(70, 70, 224);
+    font-family:monospace;
+    font-size: 20px;
+    height: 30px;
+}
+select::-webkit-scrollbar{
+   width: 10px; 
+   background-color: blueviolet;
+}
+select::-webkit-scrollbar-track{
+    background-color: rgb(216, 231, 5);
+}
+select::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
